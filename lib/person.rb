@@ -4,7 +4,16 @@ class Person
     "#{@name}"
   end
 
-def name=(newName)
+  def name=(newName)
+    @name = newName
+  end
 
-end
+  def job
+    "#{@job}"
+  end
+  
+  def job=(newJob)
+    @job = newJob
+  end
+
 end
