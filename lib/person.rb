@@ -1,8 +1,8 @@
 class Person
   
   def name
-    
-end
+    "#{@name}"
+  end
 
 def name=(newName)
 
