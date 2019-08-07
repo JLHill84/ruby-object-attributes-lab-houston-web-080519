@@ -8,4 +8,12 @@ class Dog
     @name = newName
   end
   
+  def breed
+  "#{@breed}"
+  end
+  
+  def breed=(newBreed)
+    @breed = newBreed
+  end
+  
 end
