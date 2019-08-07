@@ -1,7 +1,7 @@
 class Dog
   
   def name
-    puts @name
+    puts fido
   end
   
   def name=(newName)
